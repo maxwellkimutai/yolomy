@@ -1,4 +1,4 @@
-# Istagram Clone
+# Yolomy
 #### This is a work assessment website based on an image of a website , February 6, 2019
 #### By **Maxwell Kimutai**
 
