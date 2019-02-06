@@ -1,0 +1,79 @@
+.header {
+    background: url('../images/backgrounds/hero.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top: 0px;
+    margin: 0;
+    height: 790px;
+}
+nav{
+    margin: 0px;
+    color: #FFF;
+    background-color: #C3BDA3;
+}
+.hr {
+    background-color: #D3D3D3;
+    height: 2px;
+    margin-top: 12px;
+}
+.dot-green {
+  height: 15px;
+  width: 15px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-blue {
+  height: 15px;
+  width: 15px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-black {
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-pink {
+  height: 15px;
+  width: 15px;
+  background-color: pink;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-white {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+.about{
+    background: url('../images/backgrounds/about.jpg') no-repeat center center;
+    height: 402px;
+    color: #FFF;
+}
+.fieldset {
+  border: 5px solid #C3BDA3;
+  margin-top: 1em;
+  width: 500px;
+}
+
+.fieldset h1 {
+  font-size: 12px;
+  text-align: center;
+}
+
+.fieldset h1 span {
+  display: inline;
+  border: 1px solid #C3BDA3;
+  padding: 5px 10px;
+  position: relative;
+  top: -1.3em;
+}
+.footer{
+    background-color: #323232;
+    color: #FFF;
+}

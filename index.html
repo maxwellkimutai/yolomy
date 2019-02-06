@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <title>Yolomy</title>
+    </head>
+    <body>
+        <div class="header">
+            <nav class="navbar navbar-expand-md bg-transparent navbar-dark fixed-top py-3">
+              <div class="container">
+                <a class="navbar-brand mr-4" href="#"><img src="../images/logo/logo.png" alt="" height="30"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                  <div class="navbar-nav mr-auto">
+                  </div>
+                  <div class="navbar-nav">
+
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" style="color:#fff;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#products" style="color:#fff;">Products</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><img src="../images/logo/shop.png" alt=""></a>
+                        </li>
+                     </ul>
+
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center pb-5" style="height: 790px; color: #fff; flex-direction:column;">
+                    <div class="row" style="margin-top:auto;"><p style="font-size: 60px;">Our clothing , your comfort</p></div>
+                    <div class="row text-center"><p style="font-size: 20px;">We understand that you need to look good and feel great.<br>It all starts with what you are wearing. </p></div>
+                    <div class="row" style="margin-top:auto;"><a href="#product-selection"><img src=../images/mouse_click.png></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row product-selection" id="product-selection" style="background-color: #C3BDA3;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-center" style="height: 120px;">
+                                <form action="">
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" id="menCheckbox" value="men">
+                                          <label class="form-check-label" for="menCheckbox">MEN</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" id="womenCheckbox" value="men">
+                                          <label class="form-check-label" for="womenCheckbox">WOMEN</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" id="childrenCheckbox" value="men">
+                                          <label class="form-check-label" for="childrenCheckbox">CHILDREN</label>
+                                        </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex align-items-center justify-content-end" style="height: 120px;">
+                                <button type="button" name="button" style="padding:10px; background-color: #800000; color:#fff;">SEE ALL PRODUCTS</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row products" id="products" style="padding: 50px 0;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1">MEN</div>
+                        <div class="col-md-11 hr"></div>
+                    </div>
+                    <div class="d-flex align-items-end" style="flex-direction:column;">
+                        <p style="color: #C3BDA3;">1/5<br><i class="fas fa-angle-left"></i>  <i class="fas fa-angle-right"></i></p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 my-4">
+                            <div class="card" style="background-color:#fafafa;">
+                              <div class="card-body">
+                                  <div class="card-top">
+                                      <div class="d-flex">
+                                          <div class="p-2">Size <i class="fas fa-angle-down"></i></div>
+                                          <div class="ml-auto p-2"><span class="dot-green mx-1"></span><span class="dot-blue mx-1"></span><span class="dot-black mx-1"></span></div>
+                                      </div>
+                                  </div>
+                                <div class="text-center">
+                                    <img src="../images/products/tshirt.png" alt="" height="190px">
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="d-flex">
+                                        <div class="p-2"><p style="color:#C3BDA3;">T-SHIRT</p></div>
+                                        <div class="ml-auto p-2"> <p style="color:#C3BDA3;">5,00 <i class="fa fa-euro-sign"></i></p></div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-4">
+                            <div class="card" style="background-color:#fafafa;">
+                              <div class="card-body">
+                                  <div class="card-top">
+                                      <div class="d-flex">
+                                          <div class="p-2">Size <i class="fas fa-angle-down"></i></div>
+                                      </div>
+                                  </div>
+                                <div class="text-center">
+                                    <img src="../images/products/pants.png" alt="" height="190px">
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="d-flex">
+                                        <div class="p-2"><p style="color:#C3BDA3;">PANTS FORCLAZ</p></div>
+                                        <div class="ml-auto p-2"><p style="color:#C3BDA3;">30,00 <i class="fa fa-euro-sign"></i></p></div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-4">
+                            <div class="card" style="background-color:#fafafa;">
+                              <div class="card-body">
+                                  <div class="card-top">
+                                      <div class="d-flex">
+                                          <div class="p-2">10LITRI</div>
+                                      </div>
+                                  </div>
+                                <div class="text-center">
+                                    <img src="../images/products/backpack.png" alt="" height="190px">
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="d-flex">
+                                        <div class="p-2"><p style="color:#C3BDA3;">BACKPACK</p></div>
+                                        <div class="ml-auto p-2"><p style="color:#C3BDA3;">60,00 <i class="fa fa-euro-sign"></i></p></div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 50px;">
+                        <div class="col-md-11 hr"></div>
+                        <div class="col-md-1">WOMEN</div>
+                    </div>
+                    <div class="d-flex align-items-start" style="flex-direction:column;">
+                        <p style="color: #C3BDA3;">1/5<br><i class="fas fa-angle-left"></i>  <i class="fas fa-angle-right"></i></p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 my-4">
+                            <div class="card" style="background-color:#fafafa;">
+                              <div class="card-body">
+                                  <div class="card-top">
+                                      <div class="d-flex">
+                                          <div class="p-2">Size <i class="fas fa-angle-down"></i></div>
+                                          <div class="ml-auto p-2"><a href="#" class="card-link">Another link</a></div>
+                                      </div>
+                                  </div>
+                                <div class="text-center">
+                                    <img src="../images/products/giacket.png" alt="" height="190px">
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="d-flex">
+                                        <div class="p-2"><p style="color:#C3BDA3;">GIACKET</p></div>
+                                        <div class="ml-auto p-2"><p style="color:#C3BDA3;">60,00 <i class="fa fa-euro-sign"></i></p></div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-4">
+                            <div class="card" style="background-color:#fafafa;">
+                              <div class="card-body">
+                                  <div class="card-top">
+                                      <div class="d-flex">
+                                          <div class="p-2">Size <i class="fas fa-angle-down"></i></div>
+                                      </div>
+                                  </div>
+                                <div class="text-center">
+                                    <img src="../images/products/trekkingshoes.png" alt="" width="" height="190px">
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="d-flex">
+                                        <div class="p-2"><p style="color:#C3BDA3;">TREKKING SHOES</p></div>
+                                        <div class="ml-auto p-2"><p style="color:#C3BDA3;">80,00 <i class="fa fa-euro-sign"></i></p></div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-4">
+                            <div class="card" style="background-color:#fafafa;">
+                              <div class="card-body">
+                                  <div class="card-top">
+                                      <div class="d-flex">
+                                          <div class="p-2">Size <i class="fas fa-angle-down"></i></div>
+                                          <div class="ml-auto p-2"><span class="dot-pink mx-1"></span><span class="dot-white mx-1"></span></div>
+                                      </div>
+                                  </div>
+                                <div class="text-center">
+                                    <img src="../images/products/tshirt_ladies.png" alt="" height="190px">
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="d-flex">
+                                        <div class="p-2"><p style="color:#C3BDA3;">T-SHIRT</p></div>
+                                        <div class="ml-auto p-2"><p style="color:#C3BDA3;">20,00 <i class="fa fa-euro-sign"></i></p></div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row about">
+                <div class="container"style="background:inherit;">
+                    <div class="d-flex justify-content-center align-items-center" style="height:402px; background:inherit; flex-direction:column;">
+                        <div class="row">
+                            <h2>ABOUT US</h2>
+                        </div>
+                        <div class="row">
+                            <div class="fieldset text-center p-2">
+                                <p>This is where high-fashion clothing is <br>designed and crafted from the heart by <br>an amazing team of craftsmen and <br>designers who understand what fashion <br>is.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row twitter" style="background:#666666; height:70px; color:white; font-size: 20px;">
+                <div class="container">
+                    <div class="row height:70px;">
+                        <div class="col-md-1 d-flex align-items-center" style="height:70px">
+                            <img src="../images/social_icons/twitter_bird.png" alt="">
+                        </div>
+                        <div class="col-md-11 d-flex align-items-center" style="height:70px;">
+                            <p>"SALE:Buy anything for 45% off. Use the promo CODE YOLOMY45 when you buy items"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid footer">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-md-4">
+                        <h3>YOLOMY</h3>
+                        <p>WE ARE YOLOMY. WE UNDERSTAND FASHION AND STYLE. WE CRAFT OUR PRODUCTS WITH LOVE AND DILIGENCE</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="text-center"><p>We are Social</p></div>
+                        <div class="row px-5">
+                            <div class="col-md-3">
+                                <img src="../images/social_icons/g_plus.png" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="../images/social_icons/facebook.png" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="../images/social_icons/you_tube.png" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="../images/social_icons/stumble_upon.png" alt="">
+                            </div>
+                        </div>
+                        <div class="row px-5 mt-3">
+                            <div class="col-md-3">
+                                <img src="../images/social_icons/skype.png" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="../images/social_icons/flickr.png" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="../images/social_icons/twitter.png" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="../images/social_icons/pinterest.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 d-flex align-items-center flex-column" style="height: inherit;">
+                        <div class="p-2"><p>CREDITS| PRIVACY| ABOUT| CONTACT</p></div>
+                        <div class="p-2">
+                            <p>Yolomy: We Mean Fashion</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center"><p>COPYRIGHT 2015. YOLOMY INC.</p></div>
+            </div>
+        </div>
+
+
+
+    </body>
+</html>
