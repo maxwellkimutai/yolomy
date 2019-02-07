@@ -12,7 +12,7 @@
 * To edit open the folder/project using you preferred text editor
 
 ## Live Site
-https://kace-insta.herokuapp.com/
+https://maxwellkimutai.github.io/yolomy/
 
 ## Known Bugs
 None
